@@ -1,0 +1,1 @@
+console.log("teri bato mein aisa uljha jiya");

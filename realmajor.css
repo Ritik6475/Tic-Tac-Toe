@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'baloo-bhai 2', cursive;
+   
+}
+
+
+nav{
+
+    background-color: black;
+    color: white;
+    height: 65px;
+    font-size: 28px;
+   display: flex;
+   align-items: center;
+    padding: 0 12px; 
+    justify-content: center;
+
+}
+
+nav ul{
+
+
+
+
+    list-style-type: none;
+}
+
+.gameContainer{
+
+display: flex;
+justify-content: center;
+margin-top: 50px;
+
+
+
+
+}
+
+
+.container{
+
+display: grid;
+
+grid-template-columns: repeat(3,10vw);
+
+grid-template-rows: repeat(3,10vw);
+
+border-top: none;
+border-right: 0px;
+border-left: 0px;
+border-bottom: 0px;
+
+}
+
+.box{
+
+border: 1.5px solid black;
+font-size: 8vw;
+
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'baloo-bhai 2', cursive;
+
+
+}
+
+
+.box:hover{
+background-color: rgba(137, 43, 226, 0.204);
+    
+    }
+
+
+
+    .gameinfo{
+
+        padding: 0 34px;
+
+font-family: 'baloo-bhai 2', cursive;
+
+    }
+
+
+    #imagebox{
+
+display: none;
+    
+}
+
+
+    .bt-0{
+
+        border-top: 0px;
+    }
+    .bl-0{
+        border-left: 0px;
+  
+    }
+    .bb-0{
+        border-bottom: 0px;
+  
+    }
+    .br-0{
+        border-right: 0px;
+  
+    }
+
+
+    #restart{
+
+        background-color: #002147;
+        width: 150px;
+        height: 40px;
+        color: orange; 
+      margin-right: 100px;
+      border-radius: 20px;
+     font-weight: 400;
+font-size: 1.3rem;
+
+    }
+
+    #onn{
+
+        background-color: #002147;
+        width: 150px;
+        height: 40px;
+        color: orange; 
+      margin-right: 100px;
+      border-radius: 20px;
+     font-weight: 400;
+font-size: 1.3rem;
+
+    }
+   
+    #off{
+
+        background-color: #002147;
+        width: 150px;
+        height: 40px;
+        color: orange; 
+       margin-right: 100px;
+       margin-top: 20px;
+       border-radius: 20px;
+      font-weight: 400;
+      font-size: 1.3rem;
+  
+    }
+
+
+
+
+
+
+    .info{
+
+
+
+        margin-right: 60px;
+    }
+
